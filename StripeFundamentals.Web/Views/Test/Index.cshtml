@@ -1,0 +1,43 @@
+﻿@using System.Web.DynamicData
+@model Stripe.StripeInvoice
+
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Test</h2>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Customer ID</td>
+        </tr>
+        <tr>
+            <td>@Model.CustomerId</td>
+        </tr>
+        <tr>
+            <td>Receipt Number</td>
+        </tr>
+        <tr>
+            <td>@Model.ReceiptNumber</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>@Model.Total</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<body>
+    <div>
+
+    </div>
