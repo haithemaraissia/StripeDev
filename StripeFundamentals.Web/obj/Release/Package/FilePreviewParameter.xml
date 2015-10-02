@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="StripeDev" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\haraissia\\Desktop\\stripe-fundamentals-with-asp-net-mvc\\5-stripe-fundamentals-with-asp-net-mvc-m5-exercise-files\\after\\StripeFundamentals\\StripeFundamentals\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\haraissia\\Desktop\\stripe-fundamentals-with-asp-net-mvc\\5-stripe-fundamentals-with-asp-net-mvc-m5-exercise-files\\after\\StripeFundamentals\\StripeFundamentals\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\StripeFundamentals.Web.mdf;Initial Catalog=StripeFundamentals.Web;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\haraissia\\Desktop\\stripe-fundamentals-with-asp-net-mvc\\5-stripe-fundamentals-with-asp-net-mvc-m5-exercise-files\\after\\StripeFundamentals\\StripeFundamentals\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="PaymentsModel-Web.config Connection String" description="" value="metadata=res://*/Data.PaymentsModel.csdl|res://*/Data.PaymentsModel.ssdl|res://*/Data.PaymentsModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDb)\v11.0;attachdbfilename=|DataDirectory|\StripeFundamentals.Web.mdf;initial catalog=StripeFundamentals.Web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\haraissia\\Desktop\\stripe-fundamentals-with-asp-net-mvc\\5-stripe-fundamentals-with-asp-net-mvc-m5-exercise-files\\after\\StripeFundamentals\\StripeFundamentals\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PaymentsModel']/@connectionString" />
+  </parameter>
+  <parameter name="testContext-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0; Initial Catalog=testContext-20150928091631; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|testContext-20150928091631.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\haraissia\\Desktop\\stripe-fundamentals-with-asp-net-mvc\\5-stripe-fundamentals-with-asp-net-mvc-m5-exercise-files\\after\\StripeFundamentals\\StripeFundamentals\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='testContext']/@connectionString" />
+  </parameter>
+</parameters>
